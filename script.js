@@ -1,7 +1,6 @@
 function threeSum(arr, target) {
 // write your code here
 	Arrays.sort(arr);
-	let Closestsum=0;
 	
 	for(let i=0; i<arr.length; i++){
 		

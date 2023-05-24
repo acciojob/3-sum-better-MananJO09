@@ -10,8 +10,7 @@ function threeSum(arr, target) {
 		let res=arr[i]+arr[left]+arr[right];
 		while(left<right){
 			if(Closestsum==target){
-		res=Closestsum
-		return res;
+				return Closestsum;
 			}if(Closestsum>target){
 				right++;
 			}

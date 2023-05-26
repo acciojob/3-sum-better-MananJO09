@@ -1,4 +1,5 @@
 function threeSum(arr, target) {
+	arr.sort((a, b) => a - b);
     let res = arr[0] + arr[1] + arr[2]; 
 	for (let i = 0; i < arr.length - 2; i++) {
 		let left = i + 1;

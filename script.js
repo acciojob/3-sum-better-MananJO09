@@ -1,6 +1,4 @@
 function threeSum(arr, target) {
-    public static int threeSum(int[] arr, int target) {
-      arr.sort((a, b) => a - b);
     let res = arr[0] + arr[1] + arr[2]; 
 	for (let i = 0; i < arr.length - 2; i++) {
 		let left = i + 1;
@@ -21,5 +19,6 @@ function threeSum(arr, target) {
 		}
     return res;
     }
-}
 module.exports = threeSum;
+
+
